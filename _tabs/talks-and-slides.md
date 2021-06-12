@@ -1,7 +1,7 @@
 ---
 title: Talks and Slides
 icon: fas fa-tags
-order: 2
+order: 5
 ---
 
 1. Strategy and Adapter Design Patterns
