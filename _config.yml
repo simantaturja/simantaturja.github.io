@@ -20,7 +20,7 @@ url: 'https://simantaturja.github.io'
 
 author: Simanta Deb Turja                  # change to your full name
 
-avatar: /assets/img/sample/avatar.png   # support internet resources
+avatar: /assets/img/1561.jpg   # support internet resources
 
 github:
   username: simantaturja             # change to your github username
@@ -49,7 +49,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: America/New_York
+timezone: Asia/Dhaka
 
 google_analytics:
   id: ''          # Fill with your Google Analytics ID
@@ -76,7 +76,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark
+theme_mode: dual
 
 # boolean type, the global switch for ToC in posts.
 toc: true
