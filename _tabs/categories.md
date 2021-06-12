@@ -1,7 +1,7 @@
 ---
 title: Categories
 icon: fas fa-stream
-order: 2
+order: 2 
 
 # All the Categories of posts
 # v2.0
