@@ -28,13 +28,22 @@ github:
 twitter:
   username: imturja            # change to your twitter username
 
+linkedin:
+  username: simantaturja
+
+facebook:
+  username: SD.Turja
+
 social:
   name: Simanta Deb Turja                  # it will shows as the copyright owner in Footer
   email: simantaturja@gmail.com            # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://www.linkedin.com/in/simantaturja
     - https://twitter.com/imturja      # change to your twitter homepage
     - https://github.com/simantaturja       # change to your github homepage
+    - https://www.facebook.com/SD.Turja
+
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

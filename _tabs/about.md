@@ -2,13 +2,22 @@
 title: About
 icon: fas fa-info
 order: 4
-
-# The About page
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT License
 ---
 
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+### Current Affiliation
+- ##### Cefalo Bangladesh Ltd.
+    - ###### Associate Software Engineer (Jan. 2021 - Current)
+
+
+### Past Work Experience
+- Qwik
+    - React Native Developer (Nov. 2020 - Dec. 2020)
+- AUST ACM Programming Lab 02
+    - ACM Programming Contest Trainer (Jan. 2020 - Dec. 2020)
+- Open Refactory Inc. 
+    - Software Engineering Intern (Dec. 2019 - Jan. 2020)
+
+### Education
+- Ahsanullah University of Science and Technology (AUST)
+    - B.Sc(Engg.) in Computer Science and Engineering
