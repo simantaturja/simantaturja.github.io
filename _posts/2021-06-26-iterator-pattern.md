@@ -9,7 +9,7 @@ tags:
   - clean-code
 ---
 
-![iterator](../../../assets/img/blog/iteratorpattern/iterator.png)
+![iterator](../../../assets/img/blog/iteratorpattern/Iterator.png)
 
 ইটারেটর ডিজাইন প্যাটার্ন এক ধরনের `behavioural design pattern` যার সাহায্যে ভিন্ন ধরনের অবজেক্ট একইভাবে ইটারেট করার সুবিধা পাওয়া যায়।
 According to the book `Design Patterns: Elements of Reusable Object-Oriented Software`, Iterator Pattern is used to -
