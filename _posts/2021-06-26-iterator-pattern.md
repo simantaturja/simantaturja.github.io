@@ -387,7 +387,8 @@ public class IteratorPatternSolution {
 প্রথম solution থেকে দ্বিতীয় solution ভালো হওয়ার একটা অন্যতম কারণ হচ্ছে, দ্বিতীয় solution single responsibility principle maintain করছে। প্রথম solution এর দিকে খেয়াল করলে দেখবেন, আমরা একই ক্লাস মডিফাই করে ওইটাতে ক্লাসের সব অন্যসব method এর সাথে iteration করার way ও বলে দিচ্ছিলাম। কিন্তু ইটারেশন করার ব্যাপারটা অন্য ক্লাসে রাখলে কোড ক্লিন থাকবে এবং existing class এ কম মডিফাই করতে হবে।
 
 ![uml-iterator-pattern](../../../assets/img/blog/iteratorpattern/iteratorpatternuml.png)
-এখানে, Aggreate বলতে আসলে একটা ইন্টারফেস করে বুঝিয়েছে, যাকে পরবর্তীতে ConcreteAggregate ক্লাসগুলো implement করবে। আমরা solution এর simplicity রাখার জন্য Aggregate interface টাকে introduce করি নি। আমাদের প্রবলেমে ConcreteAggregate class গুলো হচ্ছে BreakfastMenu এবং LunchMenu। যদি আমরা Aggregate Interface introduce করতাম তাহলে `Menu` নামের একটা Aggregate Interface তৈরি করতে পারতাম।
+
+এখানে, Aggreate বলতে আসলে একটা ইন্টারফেস বুঝিয়েছে, যাকে পরবর্তীতে ConcreteAggregate ক্লাসগুলো implement করবে। আমরা solution এর simplicity রাখার জন্য Aggregate interface টাকে introduce করি নি। আমাদের প্রবলেমে ConcreteAggregate class গুলো হচ্ছে BreakfastMenu এবং LunchMenu। যদি আমরা Aggregate Interface introduce করতাম তাহলে `Menu` নামের একটা Aggregate Interface তৈরি করতে পারতাম।
 
 ```java
 public interface Menu {
