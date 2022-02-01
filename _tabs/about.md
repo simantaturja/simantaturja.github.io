@@ -7,7 +7,8 @@ order: 1
 
 ### Current Affiliation
 - ##### Cefalo Bangladesh Ltd.
-    - ###### Associate Software Engineer (Jan. 2021 - Current)
+    - ###### Software Engineer (Jan. 2022 - Present)
+    - ###### Associate Software Engineer (Jan. 2021 - Dec. 2021)
 
 
 ### Past Work Experience
