@@ -1,0 +1,42 @@
+<!--
+  Copyright (c) 2018 ml5
+
+  This software is released under the MIT License.
+  https://opensource.org/licenses/MIT
+-->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shapes2Toon</title>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"
+      integrity="sha512-b/htz6gIyFi3dwSoZ0Uv3cuv3Ony7EeKkacgrcVg8CMzu90n777qveu0PBcbZUA7TzyENGtU+qZRuFAkfqgyoQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2>Shapes2Toon Drawing Tool</h2>
+    
+    <p id="status">Loading Model... Please wait...</p>
+    <div id="app">
+      <div id="input"></div>
+      <img id="output" src="images/blank.png" />
+    </div>
+    <div id="tools">
+      <button id="selectBtn">Select</button>
+      <button id="drawBtn">Draw</button>
+    </div>
+    <br />
+    <div id="buttons">
+      <button id="randomBtn">Random</button>
+      <button id="clearBtn">Clear</button>
+      <button id="transferBtn">Transfer</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
